@@ -25,6 +25,6 @@ class PepParsePipeline:
             writer = csv.writer(f, dialect='unix')
             writer.writerows([
                 ('Статус', 'Количество'),
-                *self.results.items(),
-                ('Total', sum(self.results.values()))
+                *self.dict.items(),
+                ('Total', sum(self.dict.values()))
             ])
