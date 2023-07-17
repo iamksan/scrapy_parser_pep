@@ -10,7 +10,7 @@
 
 Клонировать репозиторий и перейти в него в командной строке:
 ```
-git clone https://github.com/AngelNad/scrapy_parser_pep.git
+git clone git@github.com:iamksan/scrapy_parser_pep.git
 ```
 ```
 cd scrapy_parser_pep/
